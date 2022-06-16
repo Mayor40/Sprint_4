@@ -25,10 +25,10 @@ public class AccountTest {
     public static Object[][] getTextData() {
         return new Object[][] {
                 {"Дмитрий Майоров", true},
-                {"Дима", true},
+                {"Д М", true},
                 {"Дмитрий Майороввввв", true},
+                {"Дима", false},
                 {"Дмитрий Май оров", false},
-                {"Дми", false},
                 {"Дмитрий Майоровввввв", false},
                 {" Майор", false},
                 {"Майор ", false}
